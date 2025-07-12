@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="AutoImports.com.au – Premium Japanese car imports in Australia. Browse stock, request a car, and get started today.">
+  <title>AutoImports.com.au</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <img src="images/logo.png" alt="AutoImports Logo" class="logo" />
+      <ul>
+        <li><a href="#stock">Stock</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#why">Why Us</a></li>
+        <li><a href="#import">Import</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Premium Car Imports</h1>
+      <p>From Japan to your driveway — AutoImports makes it easy.</p>
+      <a href="#stock" class="cta">View Stock</a>
+    </div>
+  </section>
+
+  <section id="stock" class="section">
+    <h2>Current Stock</h2>
+    <div class="car-listings">
+      
+      <div class="car-card">
+        <img src="images/sample-car.jpg" alt="Sample Car" />
+        <div class="car-info">
+          <h3>2017 Mitsubishi Pajero GLS</h3>
+          <p>Mileage: 70,000 km</p>
+          <p>Transmission: Auto · Diesel</p>
+          <span class="price">$32,000</span>
+          <!-- <div class="sold-watermark">SOLD</div> -->
+        </div>
+      </div>
+
+      <!-- Duplicate above block for more cars -->
+
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <h2>About Us</h2>
+    <p>AutoImports.com.au is a Melbourne-based importer focused on high-quality Japanese vehicles. With trusted connections in Japan and streamlined compliance, we help you drive what you love.</p>
+  </section>
+
+  <section id="why" class="section">
+    <h2>Why Choose Us</h2>
+    <ul>
+      <li>🚗 Access to top Japanese auctions</li>
+      <li>🛠️ Full compliance & support</li>
+      <li>📄 Transparent process & no hidden fees</li>
+    </ul>
+  </section>
+
+  <section id="import" class="section">
+    <h2>Import Your Own Car</h2>
+    <p>Looking for something specific? We’ll source and import it for you.</p>
+    <form class="import-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Email" required />
+      <textarea placeholder="What car are you after?" required></textarea>
+      <button type="submit">Request Import</button>
+    </form>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:info@autoimports.com.au">info@autoimports.com.au</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 AutoImports.com.au</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
